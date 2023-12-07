@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.name{
+    color: pink;
+    text-decoration: underline;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url(/assets/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.nav{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a{
+    text-decoration: none;
+    background-color: teal;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: black;
+    transition: 1000ms;
+}
+
+.info{
+    width: 50%;
+    margin: auto;
+    /* text-align: center; */
+    height: 70%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+section p{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, .35);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
